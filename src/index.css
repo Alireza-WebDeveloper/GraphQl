@@ -134,4 +134,33 @@ html {
   --danger-200: #d32f2f;
   --danger-100: #c62828;
   --danger-50: #b71c1c;
+  /* Font sizes */
+  --font-p1: 1.25rem;
+  --font-p2: calc(1.25rem + 0.25rem);
+  --font-p3: calc(1.5rem + 0.5rem);
+  --font-p4: calc(1.5rem + 0.75rem);
+  --font-p5: calc(1.5rem + 1rem);
+  --font-p6: calc(1.5rem + 1.25rem);
+  --font-p7: calc(1.5rem + 1.5rem);
+  --font-p8: calc(1.5rem + 1.75rem);
+  --font-p9: calc(1.5rem + 2rem);
+  --font-p10: calc(1.5rem + 2.25rem);
+  --font-p11: calc(1.5rem + 2.5rem);
+  --font-p12: calc(1.5rem + 2.75rem);
+  --font-p13: calc(1.5rem + 3rem);
+  --font-p14: calc(1.5rem + 3.25rem);
+  --font-p15: calc(1.5rem + 3.5rem);
+  /* Heading sizes */
+  --h1: var(--font-h1);
+  --h2: var(--font-h2);
+  --h3: var(--font-h3);
+  --h4: var(--font-h4);
+  --h5: var(--font-h5);
+  --h6: var(--font-h6);
+  --p1: var(--font-p1);
+  --p2: var(--font-p2);
+  --p3: var(--font-p3);
+  --p4: var(--font-p4);
+  --p5: var(--font-p5);
+  --p6: var(--font-p6);
 }
