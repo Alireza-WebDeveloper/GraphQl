@@ -86,50 +86,50 @@ html {
 
 [data-theme="dark"] {
   /* Primary Colors */
-  --primary-1000: rgb(25, 25, 25);
-  --primary-900: rgb(55, 55, 55);
-  --primary-800: rgb(85, 85, 85);
-  --primary-700: rgb(115, 115, 115);
-  --primary-600: rgb(140, 140, 140);
-  --primary-500: rgb(170, 170, 170);
-  --primary-400: rgb(200, 200, 200);
-  --primary-300: rgb(230, 230, 230);
-  --primary-200: rgb(245, 245, 245);
-  --primary-100: rgb(255, 255, 255);
+  --primary-1000: rgb(255, 255, 255);
+  --primary-900: rgb(245, 245, 245);
+  --primary-800: rgb(230, 230, 230);
+  --primary-700: rgb(200, 200, 200);
+  --primary-600: rgb(170, 170, 170);
+  --primary-500: rgb(140, 140, 140);
+  --primary-400: rgb(115, 115, 115);
+  --primary-300: rgb(85, 85, 85);
+  --primary-200: rgb(55, 55, 55);
+  --primary-100: rgb(25, 25, 25);
 
   /* Secondary Colors */
-  --secondary-900: #4a148c;
-  --secondary-800: #6a1b9a;
-  --secondary-700: #7b1fa2;
-  --secondary-600: #8e24aa;
-  --secondary-500: #9c27b0;
-  --secondary-400: #ab47bc;
-  --secondary-300: #ba68c8;
-  --secondary-200: #ce93d8;
-  --secondary-100: #e1bee7;
-  --secondary-50: #f3e5f5;
+  --secondary-900: #f3e5f5;
+  --secondary-800: #e1bee7;
+  --secondary-700: #ce93d8;
+  --secondary-600: #ba68c8;
+  --secondary-500: #ab47bc;
+  --secondary-400: #9c27b0;
+  --secondary-300: #8e24aa;
+  --secondary-200: #7b1fa2;
+  --secondary-100: #6a1b9a;
+  --secondary-50: #4a148c;
 
   /* Info Colors */
-  --info-900: #1b5e20;
-  --info-800: #2e7d32;
-  --info-700: #388e3c;
-  --info-600: #43a047;
-  --info-500: #4caf50;
-  --info-400: #66bb6a;
-  --info-300: #81c784;
-  --info-200: #a5d6a7;
-  --info-100: #c8e6c9;
-  --info-50: #e8f5e9;
+  --info-900: #e8f5e9;
+  --info-800: #c8e6c9;
+  --info-700: #a5d6a7;
+  --info-600: #81c784;
+  --info-500: #66bb6a;
+  --info-400: #4caf50;
+  --info-300: #43a047;
+  --info-200: #388e3c;
+  --info-100: #2e7d32;
+  --info-50: #1b5e20;
 
   /* Danger Colors */
-  --danger-900: #b71c1c;
-  --danger-800: #c62828;
-  --danger-700: #d32f2f;
-  --danger-600: #e53935;
-  --danger-500: #f44336;
-  --danger-400: #ef5350;
-  --danger-300: #e57373;
-  --danger-200: #ef9a9a;
-  --danger-100: #ffcdd2;
-  --danger-50: #ffebee;
+  --danger-900: #ffebee;
+  --danger-800: #ffcdd2;
+  --danger-700: #ef9a9a;
+  --danger-600: #e57373;
+  --danger-500: #ef5350;
+  --danger-400: #f44336;
+  --danger-300: #e53935;
+  --danger-200: #d32f2f;
+  --danger-100: #c62828;
+  --danger-50: #b71c1c;
 }
