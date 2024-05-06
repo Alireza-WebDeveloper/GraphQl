@@ -7,7 +7,7 @@ interface CustomLinkProps extends PropsWithChildren {
 
 const CustomLink: React.FC<CustomLinkProps> = ({ to, children, ...rest }) => {
   return (
-    <Link className="text-primary-900" to={to} {...rest}>
+    <Link className="text-primary-900 sm:text-p1 lg:text-p2" to={to} {...rest}>
       {children}
     </Link>
   );

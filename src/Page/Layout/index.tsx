@@ -9,7 +9,7 @@ const Layout = () => {
   return (
     <ThemeProvider>
       <Header>
-        <div className="flex gap-10">
+        <div className="flex gap-10 flex-wrap">
           <CustomLink to="/">home</CustomLink>
           <CustomLink to="/about">about</CustomLink>
           <CustomLink to="/products">products</CustomLink>
