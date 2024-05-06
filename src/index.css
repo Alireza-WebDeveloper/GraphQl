@@ -56,19 +56,21 @@ html {
   --danger-800: #c62828;
   --danger-900: #b71c1c;
   /* Font sizes */
-  --font-p1: 1rem; /* Paragraph text */
-  --font-p2: 1.25rem; /* Paragraph text */
-  --font-p3: 1.5rem; /* Paragraph text */
-  --font-p4: 1.75rem; /* Paragraph text */
-  --font-p5: 2rem; /* Paragraph text */
-  --font-p6: 2.25rem; /* Paragraph text */
-  --font-h1: 2.5rem; /* Heading 1 */
-  --font-h2: 2rem; /* Heading 2 */
-  --font-h3: 1.75rem; /* Heading 3 */
-  --font-h4: 1.5rem; /* Heading 4 */
-  --font-h5: 1.25rem; /* Heading 5 */
-  --font-h6: 1rem; /* Heading 6 */
-
+  --font-p1: 1.25rem;
+  --font-p2: calc(1.25rem + 0.25rem);
+  --font-p3: calc(1.5rem + 0.5rem);
+  --font-p4: calc(1.5rem + 0.75rem);
+  --font-p5: calc(1.5rem + 1rem);
+  --font-p6: calc(1.5rem + 1.25rem);
+  --font-p7: calc(1.5rem + 1.5rem);
+  --font-p8: calc(1.5rem + 1.75rem);
+  --font-p9: calc(1.5rem + 2rem);
+  --font-p10: calc(1.5rem + 2.25rem);
+  --font-p11: calc(1.5rem + 2.5rem);
+  --font-p12: calc(1.5rem + 2.75rem);
+  --font-p13: calc(1.5rem + 3rem);
+  --font-p14: calc(1.5rem + 3.25rem);
+  --font-p15: calc(1.5rem + 3.5rem);
   /* Heading sizes */
   --h1: var(--font-h1);
   --h2: var(--font-h2);

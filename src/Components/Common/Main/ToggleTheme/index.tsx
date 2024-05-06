@@ -8,9 +8,9 @@ export default function ToggleTheme() {
     <>
       <section className="cursor-pointer" onClick={() => toggleTheme()}>
         {theme === "light" ? (
-          <DarkModeIcon width="24" height="24" />
+          <DarkModeIcon width="24" height="24" color="black" />
         ) : (
-          <LightModeIcon width="24" height="24" />
+          <LightModeIcon width="24" height="24" color="white" />
         )}
       </section>
     </>
