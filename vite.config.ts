@@ -10,4 +10,7 @@ export default defineConfig({
       plugins: [css({ output: "dist/bundle.css" })],
     },
   },
+  server: {
+    port: 3000,
+  },
 });
