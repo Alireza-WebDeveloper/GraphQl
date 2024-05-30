@@ -1,9 +1,9 @@
 import { Outlet } from "react-router-dom";
-import Header from "../../Components/Common/Main/Header";
+import Header from "../../Components/Common/Header";
 import { ThemeProvider } from "../../Components/Common/Config/Theme/index";
 import ToggleTheme from "../../Components/Common/Main/ToggleTheme";
 import CustomLink from "../../Components/Common/Main/CustomLink";
-import Footer from "../../Components/Common/Main/Footer";
+import Footer from "../../Components/Common/Footer";
 
 const Layout = () => {
   return (
@@ -11,10 +11,8 @@ const Layout = () => {
       <Header>
         <div className="flex gap-10 flex-wrap">
           <CustomLink to="/">home</CustomLink>
-          <CustomLink to="/about">about</CustomLink>
-          <CustomLink to="/products">products</CustomLink>
-          <CustomLink to="/signin">signin</CustomLink>
-          <CustomLink to="/signout">signout</CustomLink>
+          <CustomLink to="/jobs/new">job</CustomLink>
+          <CustomLink to="/login">login</CustomLink>
         </div>
         <ToggleTheme />
       </Header>
